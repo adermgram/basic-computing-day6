@@ -1,0 +1,148 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 240px;
+    margin-top: 30px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+
+}
+h1{
+    font-size: 3rem;
+    margin: 2px;
+}
+
+body{
+    padding: 10px;
+    color:#40514E;
+    font-family : 'Merriweather', serif;
+    background-image: url("background.png") ;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 10px;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profile-pic{
+    height: 400px;
+    width: 400px;
+    display: block;
+}
+.info{
+    align-self: center;
+    text-align: center;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.about-text{
+    width: 50%;
+    /* border: rgb(53, 53, 53) 0.1rem solid; */
+    border-radius: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon{
+    height: 2rem;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+article{
+    display: flex;
+    width: 10rem;
+    
+}
+h1{
+    text-align: center;
+}
+.exp-list{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.profile-container{
+    display: flex;
+}
+
+#profile-pic{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+#projects p{
+    text-align: center;
+}
+#projects{
+    margin-bottom: 50px;
+}
+
+.projects-container{
+    border: 2px solid #40514E;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: auto;
+    padding: 25px;
+ 
+
+}
+a{
+    color: rgb(53, 53,53);
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(53, 53,53);
+    border-radius: 2rem;
+    width:200px;
+    margin: auto;
+}
+.contact-container a{
+    position: relative;
+    top: 20px  
+}
+footer{
+    text-align: center;
+    margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .exp-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+    nav{
+        width: fit-content;
+    }
+    .name{
+        display: none;
+    }
+   
+
+}
